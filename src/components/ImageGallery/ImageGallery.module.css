@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.item {
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #808080;
+}
+
